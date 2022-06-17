@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/bg-intro-desktop.png);
+    background-color: rgb(255, 120, 120);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-image: url(./images/bg-intro-mobile.png);
+    }
+}
+
+.Container_wrap{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 80px;
+}
+
+@media screen and (max-width:600px) {
+    .Container_wrap{
+        flex-direction: column;
+        margin-left: -60px;
+    }
+}
+
+.Box_one{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+    color: white;
+}
+
+.Box_one> h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+}
+
+.Box_one> p{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.Box_wrap{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 400px;
+    margin: 30px;
+}
+
+.Box_two{
+    background-color: rgb(93,84,165);
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: white;
+}
+
+.Box_three{
+    background-color: white;
+    width: 400px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.Box_three> P{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: #555;
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border: 1px solid #999;
+    padding: 15px;
+    font-size: 12px;
+
+}
+
+#btn{
+    font-family: 'Poppins', sans-serif;
+    line-height: 25px;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(55,204,138);
+    color: white;
+}
+
+b{
+    font-size: 10px;
+    color: red;
+}
