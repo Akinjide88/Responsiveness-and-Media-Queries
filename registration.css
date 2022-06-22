@@ -106,7 +106,6 @@ input{
     border: 1px solid #999;
     padding: 15px;
     font-size: 12px;
-
 }
 
 #btn{
@@ -118,9 +117,20 @@ input{
     margin-bottom: 15px;
     background-color: rgb(55,204,138);
     color: white;
+    cursor: pointer;
 }
 
 b{
     font-size: 10px;
     color: red;
+}
+
+/* input:required{
+    color: blue;
+} */
+
+input:invalid{
+    background: url("./images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: right;
 }
